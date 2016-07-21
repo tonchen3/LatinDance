@@ -48,7 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/lstar"
-                android:onClick="join"/>
+                android:onClick="join" />
 
             <TextView
                 android:id="@+id/join_text_view"
