@@ -6,15 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ChachachaActivity extends AppCompatActivity {
+public class PasoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chachacha);
+        setContentView(R.layout.activity_paso);
     }
     public void join(View view) {
-        Intent joinIntent = new Intent(ChachachaActivity.this, JoinActivity.class);
-        ChachachaActivity.this.startActivity(joinIntent);
+        Intent joinIntent = new Intent(PasoActivity.this, JoinActivity.class);
+        PasoActivity.this.startActivity(joinIntent);
     }
 }

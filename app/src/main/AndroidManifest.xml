@@ -15,7 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChachachaActivity"></activity>
+        <activity android:name=".ChachachaActivity" />
+        <activity android:name=".RumbaActivity" />
+        <activity android:name=".SambaActivity" />
+        <activity android:name=".PasoActivity" />
+        <activity android:name=".JiveActivity" />
+        <activity android:name=".JoinActivity"></activity>
     </application>
 
 </manifest>

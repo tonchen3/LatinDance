@@ -19,16 +19,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void getRumba(View view) {
-        Intent rumbaIntent = new Intent(MainActivity.this, ChachachaActivity.class);
+        Intent rumbaIntent = new Intent(MainActivity.this, RumbaActivity.class);
+        MainActivity.this.startActivity(rumbaIntent);
     }
     public void getSamba(View view) {
-        Intent sambaIntent = new Intent(MainActivity.this, ChachachaActivity.class);
+        Intent sambaIntent = new Intent(MainActivity.this, SambaActivity.class);
+        MainActivity.this.startActivity(sambaIntent);
     }
     public void getPaso(View view) {
-        Intent pasoIntent = new Intent(MainActivity.this, ChachachaActivity.class);
+        Intent pasoIntent = new Intent(MainActivity.this, PasoActivity.class);
+        MainActivity.this.startActivity(pasoIntent);
     }
     public void getJive(View view) {
-        Intent jiveIntent = new Intent(MainActivity.this, ChachachaActivity.class);
+        Intent jiveIntent = new Intent(MainActivity.this, JiveActivity.class);
+        MainActivity.this.startActivity(jiveIntent);
     }
 
 }

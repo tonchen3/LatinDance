@@ -3,32 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backone"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/backtwo"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.latindance.ChachachaActivity">
-
+    tools:context="com.example.android.latindance.PasoActivity">
     <TextView
-        android:id="@+id/cha_text_view"
+        android:id="@+id/paso_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#9c0505"
         android:padding="4dp"
-        android:text="Cha-cha"
+        android:text="Paso\ndoble"
         android:textColor="#ffffff"
         android:textSize="30sp"
         android:textStyle="bold|italic" />
 
     <TextView
-        android:id="@+id/cha_introduction_text_view"
+        android:id="@+id/paso_introduction_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/cha_text_view"
+        android:layout_toRightOf="@id/paso_text_view"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:text="This is a fabulous, versatile dance which is characterized by quick feet and sharp movements to give it a flirty and cheeky feel. The rhythm for Cha Cha is very versatile. As a result many different styles of music may be used such as Latin, Pop, Disco and even Country music!"
+        android:text="The Paso Doble is a theatrical Spanish dance. Traditionally, the man is characterized as the matador (bullfighter) and the lady as his cape in the drama of a Spanish bullfight. The dancers may choose to enact the role of the torero, picador, banderillero, bull, or Spanish dancer, and may change roles throughout the dance."
         android:textColor="#ffffff"
         android:textSize="16sp" />
 
@@ -36,7 +35,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/paso_introduction_text_view">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -52,7 +53,7 @@
                 android:onClick="join"/>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/join_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Click the star and join us."
@@ -63,11 +64,10 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/cha_image_view"
+            android:id="@+id/paso_image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/cha_cha" />
+            android:src="@drawable/paso" />
     </LinearLayout>
-
 
 </RelativeLayout>
